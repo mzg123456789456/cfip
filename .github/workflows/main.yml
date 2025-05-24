@@ -1,6 +1,6 @@
 name: Update IP List
 
-于:
+on:
   schedule:
     - cron: '0 0 0 1/2 * ?' # 每2日运行一次
   workflow_dispatch: # 允许手动触发
